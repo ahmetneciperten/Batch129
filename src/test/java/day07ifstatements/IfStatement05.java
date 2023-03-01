@@ -11,9 +11,9 @@ public class IfStatement05 {
         System.out.println("Lutfen ay ismi giriniz...");
         String monthName = input.next();
 
-        if(monthName.equalsIgnoreCase("January")){
+        if(monthName.equalsIgnoreCase("January")) {
             System.out.println(1);
-        }else if(monthName.equalsIgnoreCase("February")){
+        }else if (monthName.equalsIgnoreCase("February")){
             System.out.println(2);
         }else if(monthName.equalsIgnoreCase("March")){
             System.out.println(3);

@@ -18,6 +18,7 @@ public class TypeCasting01 {
         //byte data type'ini int data type'ina ceviriniz
         byte age = 13;
         int ageInt = age;//AutoWidening
+        System.out.println(ageInt);
 
         //long data type'ini short data type'ina cevirelim
         long weight = 234;

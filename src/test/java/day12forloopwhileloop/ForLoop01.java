@@ -11,7 +11,7 @@ public class ForLoop01 {
                     X X X X X
                     X X X X X
                     X X X X X
-        */
+
 
           Scanner input=new Scanner(System.in);
 
@@ -26,6 +26,21 @@ public class ForLoop01 {
 
             for(int k=1; k<=colomn; k++){
                 System.out.print("X ");
+            }
+            System.out.println();
+        }
+*/
+
+        Scanner input=new Scanner(System.in);
+        System.out.println("Satir sayisini giriniz..");
+        int satir=input.nextInt();
+        System.out.println("Sutun sayisini giriniz..");
+        int sutun=input.nextInt();
+
+        for(int i=1;i<=satir;i++){
+            for(int k=1;k<=sutun;k++){
+                System.out.print("V ");
+
             }
             System.out.println();
         }

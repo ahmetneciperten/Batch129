@@ -27,7 +27,7 @@ public class Switch03 {
             case "germany":
                 System.out.println("DE");
                 break;
-            case "turkey":
+            case "turkiye":
                 System.out.println("Tr");
                 break;
             case "india":

@@ -42,9 +42,11 @@ public class Loops01 {
                     //Example 3: 40'dan 23'e kadar tum cift tamsayilari ekrana yazdiran kodu yaziniz
                     for (int i = 40; i > 22; i--) {
                         if (i % 2 == 0) {
-                            System.out.println(i);
+                            System.out.print(i+" ");
                         }
                     }
+
+        System.out.println();
 
                     //Example 4: 18'den 56'ya kadar tum tek tamsayilari ekrana yazdiran kodu yaziniz
                     for (int i = 18; i < 57; i++) {

@@ -41,6 +41,7 @@ public class WhileLoop01 {
         }
 
         System.out.println(newWord);
+
         }
 
     }

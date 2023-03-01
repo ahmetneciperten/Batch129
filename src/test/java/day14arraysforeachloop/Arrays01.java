@@ -16,8 +16,8 @@ public class Arrays01 {
         arr[4] = "Art";
         System.out.println(Arrays.toString(arr));// [Math, Science, Music, English, Art]
 
+        System.out.println(arr[0].length()+(arr[arr.length-1].length()));
         System.out.println(arr[0].length() + arr[arr.length-1].length());// 7
-
         //Example 2: String array olusturun, icine 5 tane eleman ekleyin, tum elemanlarin
         //           icerdigi karakter sayilari toplamini ekrana yazdirin.
         String brr[] = new String[5];
@@ -33,7 +33,7 @@ public class Arrays01 {
         for(int i=0; i<brr.length; i++){
             totalChar = totalChar + brr[i].length();
         }
-        System.out.println(totalChar);// 32
+        System.out.println(totalChar);// 33
 
         //2.Yol: for-each-loop(enhanced loop) ==> baslangic degeri, loop'un calisma sarti, ve increment/decrement kismini kendisi halleder
         //       for-each-loop "Array" lerde ve "Collection" larda kullanilir.
